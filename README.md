@@ -2,7 +2,7 @@
 
 ## Ux/UI
 
-![RC Control](https://github.com/seungwoo505/RC-Control/blob/main/RC_Car.mp4)
+![RC Control](https://github.com/seungwoo505/RC-Control/blob/main/RC_Car.gif)
 
 ## 사용된 언어
 

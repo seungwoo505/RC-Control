@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="HandheldFriendly" content="true"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <link rel="stylesheet" type="text/css" href="./static/index.css"/>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.js"></script>
+  <script type="text/javascript" src="./static/jquery.touch.js"></script>
+  <script type="text/javascript" src="./static/detectmobilebrowser.js"></script>
+  <title>RC</title>
+</head>
+<body>
+  <div id = "start" onclick="start()"><h1>start</h1></div>
+  <div id="jo">
+    <canvas id="joy"></cabvas>
+  </div>
+  <div id="cen">
+    <div id="ca">
+      <img id = "cam" src="http://seungwoo.i234.me:8080/?action=stream"></img>
+    </div>
+    <div id="st"></div>
+  </div>
+  <div id="ch">
+    <div id="ge">
+      <a class="btn-1">3단계<span style="top: 0px; left: 0px;"></span></a>
+      <a class="btn-2">2단계<span style="top: 0px; left: 0px;"></span></a>
+      <a class="btn-3">1단계<span style="top: 0px; left: 0px;"></span></a>
+      <a class="btn-4" id="bt_col">PARKING<span id="back_col" style="top: 0px; left: 0px;"></span></a>
+    </div>
+    <div id="capo">
+      <div id="left">&#8249;</div>
+      <div id="right">&#8250;</div>
+    </div>
+  </div>
+</body>
+<script src="./static/index.js"></script>
+</html>

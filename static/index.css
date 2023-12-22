@@ -1,0 +1,137 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	overflow: hidden;
+	text-align: center;
+	background-color: white;
+	-webkit-text-size-adjust:none;
+	text-size-adjust: none;
+	touch-action: pan-y pan-x;
+}
+
+div{
+	height: 100%;
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+}
+#start{
+	height: 100%;
+	width: 100%;
+}
+
+#start > h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline;
+}
+
+#jo{
+	width: 25%;
+	/**text-align: center;**/
+}
+#joy{
+	width: 100%;
+	height: 100%;
+}
+#cen{
+	width: 40%;
+}
+
+#ca{
+	height: 70%;
+	width: 100%;
+}
+
+#cam{
+  width: 100%;
+  height: 100%;
+  transform: rotate(180deg);
+}
+
+#st{
+	height: 30%;
+	width: 100%;
+}
+
+#ch{
+	width: 30%;
+	overflow: hidden;
+}
+
+#ge{
+	width: 100%;
+	height: 70%;
+	overflow: hidden;
+}
+
+#capo{
+	width: 100%;
+	height: 30%;
+}
+
+.st_gr{
+	background-color: green;
+}
+
+.st_red{
+	background-color: red;
+}
+
+[class^=btn-] {
+  position: relative;
+  display: flex;
+  height: 25%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-size: 4vw;
+  color: #35ce32;
+  transform: color ease-in-out 1s;
+  z-index: 0;
+}
+
+[class^=btn-] span {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background-color: #c4f1c3;
+  transition: width 1s ease-in-out, height 1s ease-in-out, background-color ease-in-out 1s;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  white-space: nowrap;
+}
+[class^=btn-]:hover span {
+  width: 500%;
+  height: 500%;
+}
+[class^=btn-]:active {
+  background-color: #11c50e;
+}
+
+#back_col{
+  width: 500%;
+  height: 500%;
+  background-color: #35ce32;
+}
+#bt_col{
+  color: #c4f1c3;
+}
+#left,
+#right{
+	width: 45%;
+	height: 100%;
+	font-size: 11vw;
+}

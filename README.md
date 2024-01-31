@@ -1,6 +1,12 @@
 # RC카 네트워크를 통해 조종하기
 
-## Ux/UI
+# 개요
+
+3인 개발입니다.
+
+개인 기여도 : 100%
+
+## UX/UI
 
 ![RC Control](https://github.com/seungwoo505/RC-Control/blob/main/RC_Car.gif)
 

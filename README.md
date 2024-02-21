@@ -5,6 +5,8 @@
 
 개인 기여도 : 100%
 
+제작 기간 : 2022.11 ~ 2022.12
+
 ## UX/UI
 
 ![RC Control](https://github.com/seungwoo505/RC-Control/blob/main/RC_Car.gif)

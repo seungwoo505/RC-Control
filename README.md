@@ -8,7 +8,7 @@
 제작 기간 : 2022.11 ~ 2022.12
 
 ## UX/UI
-<img src="https://github.com/seungwoo505/RC-Control/blob/main/RC_Car.gif" height="1000"/>
+<img src="https://github.com/seungwoo505/RC-Control/blob/main/RC_Car.gif" wight="500"/>
 
 <https://github.com/seungwoo505/RC-Control/blob/main/RC_Car.mp4>
 
